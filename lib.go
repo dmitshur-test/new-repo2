@@ -1,6 +1,8 @@
 package lib
 
-import "time"
+import (
+	"time"
+)
 
 type Client struct {
 	// The amount of time a request can take before it will be
